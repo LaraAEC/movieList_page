@@ -1,4 +1,4 @@
-import { AiFillStar, AiOutlineStar  } from 'react-icons/Ai';
+import {IoStar, IoStarOutline  } from 'react-icons/Io';
 
 import { FiveStars, FourStars, ThreeStars, TwoStars, OneStars } from './styles';
 
@@ -7,11 +7,11 @@ export function Stars({value}) {
     return(
       <FiveStars>
         <div className="grade">
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
         </div>
       </FiveStars>
     );
@@ -19,11 +19,11 @@ export function Stars({value}) {
     return (
       <FourStars>
         <div className="grade">
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
-          <p> <AiFillStar /> </p>
-          <p> <AiOutlineStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStar /> </p>
+          <p> <IoStarOutline /> </p>
         </div>
       </FourStars>
     );
@@ -31,11 +31,11 @@ export function Stars({value}) {
       return (
         <ThreeStars>
           <div className="grade">
-            <p> <AiFillStar /> </p>
-            <p> <AiFillStar /> </p>
-            <p> <AiFillStar /> </p>
-            <p> <AiOutlineStar /> </p>
-            <p> <AiOutlineStar /> </p>
+            <p> <IoStar /> </p>
+            <p> <IoStar /> </p>
+            <p> <IoStar /> </p>
+            <p> <IoStarOutline /> </p>
+            <p> <IoStarOutline /> </p>
           </div>
         </ThreeStars>
       );
@@ -43,11 +43,11 @@ export function Stars({value}) {
       return(
         <TwoStars>
           <div className="grade">
-            <p> <AiFillStar /> </p>
-            <p> <AiFillStar /> </p>
-            <p> <AiOutlineStar /> </p>
-            <p> <AiOutlineStar /> </p>
-            <p> <AiOutlineStar /> </p>
+            <p> <IoStar /> </p>
+            <p> <IoStar /> </p>
+            <p> <IoStarOutline /> </p>
+            <p> <IoStarOutline /> </p>
+            <p> <IoStarOutline /> </p>
           </div>
         </TwoStars>
       );
@@ -55,11 +55,11 @@ export function Stars({value}) {
       return(
         <OneStars>
           <div className="grade">
-            <p> <AiFillStar /> </p>
-            <p> <AiOutlineStar /> </p>
-            <p> <AiOutlineStar /> </p>
-            <p> <AiOutlineStar /> </p>
-            <p> <AiOutlineStar /> </p>
+            <p> <IoStar /> </p>
+            <p> <IoStarOutline /> </p>
+            <p> <IoStarOutline /> </p>
+            <p> <IoStarOutline /> </p>
+            <p> <IoStarOutline /> </p>
           </div>
         </OneStars>
       );
