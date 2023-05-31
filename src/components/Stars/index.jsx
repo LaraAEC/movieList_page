@@ -1,4 +1,4 @@
-import {IoStar, IoStarOutline  } from 'react-icons/io';
+import {RiStarSFill, RiStarSLine  } from 'react-icons/ri';
 
 import { FiveStars, FourStars, ThreeStars, TwoStars, OneStars } from './styles';
 
@@ -7,11 +7,11 @@ export function Stars({value}) {
     return(
       <FiveStars>
         <div className="grade">
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
         </div>
       </FiveStars>
     );
@@ -19,11 +19,11 @@ export function Stars({value}) {
     return (
       <FourStars>
         <div className="grade">
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
-          <p> <IoStar /> </p>
-          <p> <IoStarOutline /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSFill /> </p>
+          <p> <RiStarSLine /> </p>
         </div>
       </FourStars>
     );
@@ -31,11 +31,11 @@ export function Stars({value}) {
       return (
         <ThreeStars>
           <div className="grade">
-            <p> <IoStar /> </p>
-            <p> <IoStar /> </p>
-            <p> <IoStar /> </p>
-            <p> <IoStarOutline /> </p>
-            <p> <IoStarOutline /> </p>
+            <p> <RiStarSFill /> </p>
+            <p> <RiStarSFill /> </p>
+            <p> <RiStarSFill /> </p>
+            <p> <RiStarSLine /> </p>
+            <p> <RiStarSLine /> </p>
           </div>
         </ThreeStars>
       );
@@ -43,11 +43,11 @@ export function Stars({value}) {
       return(
         <TwoStars>
           <div className="grade">
-            <p> <IoStar /> </p>
-            <p> <IoStar /> </p>
-            <p> <IoStarOutline /> </p>
-            <p> <IoStarOutline /> </p>
-            <p> <IoStarOutline /> </p>
+            <p> <RiStarSFill /> </p>
+            <p> <RiStarSFill /> </p>
+            <p> <RiStarSLine /> </p>
+            <p> <RiStarSLine /> </p>
+            <p> <RiStarSLine /> </p>
           </div>
         </TwoStars>
       );
@@ -55,11 +55,11 @@ export function Stars({value}) {
       return(
         <OneStars>
           <div className="grade">
-            <p> <IoStar /> </p>
-            <p> <IoStarOutline /> </p>
-            <p> <IoStarOutline /> </p>
-            <p> <IoStarOutline /> </p>
-            <p> <IoStarOutline /> </p>
+            <p> <RiStarSFill /> </p>
+            <p> <RiStarSLine /> </p>
+            <p> <RiStarSLine /> </p>
+            <p> <RiStarSLine /> </p>
+            <p> <RiStarSLine /> </p>
           </div>
         </OneStars>
       );
