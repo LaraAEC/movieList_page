@@ -1,4 +1,4 @@
-import {IoStar, IoStarOutline  } from 'react-icons/Io';
+import {IoStar, IoStarOutline  } from 'react-icons/io';
 
 import { FiveStars, FourStars, ThreeStars, TwoStars, OneStars } from './styles';
 
